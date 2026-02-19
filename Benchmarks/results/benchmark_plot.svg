@@ -1,0 +1,101 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='700' viewBox='0 0 1100 700'>
+  <rect width='100%' height='100%' fill='white' />
+  <text x='550.0' y='38' text-anchor='middle' font-size='26' font-family='-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif' fill='#222'>
+    RadixSortMetal vs Swift sorted() (Median Time)
+  </text>
+  <text x='550.0' y='62' text-anchor='middle' font-size='14' font-family='-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif' fill='#666'>
+    Log-Log plot across input sizes (complexity trend). Device: Apple M2
+  </text>
+
+  <line x1='100.0' y1='90.0' x2='100.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='100.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>512</text>
+<line x1='164.0' y1='90.0' x2='164.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='164.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>1024</text>
+<line x1='228.0' y1='90.0' x2='228.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='228.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>2048</text>
+<line x1='292.0' y1='90.0' x2='292.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='292.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>4096</text>
+<line x1='356.0' y1='90.0' x2='356.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='356.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>8192</text>
+<line x1='420.0' y1='90.0' x2='420.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='420.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>16384</text>
+<line x1='484.0' y1='90.0' x2='484.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='484.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>32768</text>
+<line x1='548.0' y1='90.0' x2='548.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='548.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>65536</text>
+<line x1='612.0' y1='90.0' x2='612.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='612.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>131072</text>
+<line x1='676.0' y1='90.0' x2='676.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='676.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>262144</text>
+<line x1='740.0' y1='90.0' x2='740.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='740.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>524288</text>
+<line x1='804.0' y1='90.0' x2='804.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='804.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>1048576</text>
+<line x1='868.0' y1='90.0' x2='868.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='868.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>2097152</text>
+<line x1='932.0' y1='90.0' x2='932.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='932.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>4194304</text>
+<line x1='996.0' y1='90.0' x2='996.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='996.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>8388608</text>
+<line x1='1060.0' y1='90.0' x2='1060.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='1060.0' y='644.0' text-anchor='middle' font-size='12' fill='#555'>16777216</text>
+<line x1='100.0' y1='620.0' x2='1060.0' y2='620.0' stroke='#ececec' stroke-width='1' />
+<text x='88.0' y='624.0' text-anchor='end' font-size='12' fill='#555'>0.100 ms</text>
+<line x1='100.0' y1='531.6666666666667' x2='1060.0' y2='531.6666666666667' stroke='#ececec' stroke-width='1' />
+<text x='88.0' y='535.6666666666667' text-anchor='end' font-size='12' fill='#555'>1.000 ms</text>
+<line x1='100.0' y1='443.33333333333337' x2='1060.0' y2='443.33333333333337' stroke='#ececec' stroke-width='1' />
+<text x='88.0' y='447.33333333333337' text-anchor='end' font-size='12' fill='#555'>10.000 ms</text>
+<line x1='100.0' y1='355.0' x2='1060.0' y2='355.0' stroke='#ececec' stroke-width='1' />
+<text x='88.0' y='359.0' text-anchor='end' font-size='12' fill='#555'>100.000 ms</text>
+<line x1='100.0' y1='266.6666666666667' x2='1060.0' y2='266.6666666666667' stroke='#ececec' stroke-width='1' />
+<text x='88.0' y='270.6666666666667' text-anchor='end' font-size='12' fill='#555'>1000.000 ms</text>
+<line x1='100.0' y1='178.33333333333331' x2='1060.0' y2='178.33333333333331' stroke='#ececec' stroke-width='1' />
+<text x='88.0' y='182.33333333333331' text-anchor='end' font-size='12' fill='#555'>10000.000 ms</text>
+<line x1='100.0' y1='90.0' x2='1060.0' y2='90.0' stroke='#ececec' stroke-width='1' />
+<text x='88.0' y='94.0' text-anchor='end' font-size='12' fill='#555'>100000.000 ms</text>
+
+  <rect x='100.0' y='90.0' width='960.0' height='530.0' fill='none' stroke='#777' stroke-width='1.2' />
+  <path d='M 100.0 552.9126901051836 L 164.0 520.3402050473546 L 228.0 503.37713075084054 L 292.0 476.0103287527686 L 356.0 448.35015021339194 L 420.0 421.441852519226 L 484.0 394.69926755547357 L 548.0 367.7398090432346 L 612.0 340.65557115250874 L 676.0 313.1437969263467 L 740.0 285.5432272297824 L 804.0 258.9566735536491 L 868.0 231.69580146655207 L 932.0 204.31366763842712 L 996.0 177.93808780183528 L 1060.0 150.16706899846463' fill='none' stroke='#D95F02' stroke-width='3' />
+  <path d='M 100.0 499.8651537492609 L 164.0 497.7649575995888 L 228.0 490.22807616133855 L 292.0 489.91350222948324 L 356.0 477.6964268223932 L 420.0 460.9887987618012 L 484.0 450.7640324490912 L 548.0 449.7031610491843 L 612.0 447.94837231999 L 676.0 425.12889921623395 L 740.0 412.5409302867651 L 804.0 402.6901939113429 L 868.0 386.1394864579623 L 932.0 369.5689459236169 L 996.0 344.6543683123516 L 1060.0 318.9621312178772' fill='none' stroke='#1B9E77' stroke-width='3' />
+  <circle cx='100.0' cy='552.9126901051836' r='4' fill='#D95F02' />
+<circle cx='164.0' cy='520.3402050473546' r='4' fill='#D95F02' />
+<circle cx='228.0' cy='503.37713075084054' r='4' fill='#D95F02' />
+<circle cx='292.0' cy='476.0103287527686' r='4' fill='#D95F02' />
+<circle cx='356.0' cy='448.35015021339194' r='4' fill='#D95F02' />
+<circle cx='420.0' cy='421.441852519226' r='4' fill='#D95F02' />
+<circle cx='484.0' cy='394.69926755547357' r='4' fill='#D95F02' />
+<circle cx='548.0' cy='367.7398090432346' r='4' fill='#D95F02' />
+<circle cx='612.0' cy='340.65557115250874' r='4' fill='#D95F02' />
+<circle cx='676.0' cy='313.1437969263467' r='4' fill='#D95F02' />
+<circle cx='740.0' cy='285.5432272297824' r='4' fill='#D95F02' />
+<circle cx='804.0' cy='258.9566735536491' r='4' fill='#D95F02' />
+<circle cx='868.0' cy='231.69580146655207' r='4' fill='#D95F02' />
+<circle cx='932.0' cy='204.31366763842712' r='4' fill='#D95F02' />
+<circle cx='996.0' cy='177.93808780183528' r='4' fill='#D95F02' />
+<circle cx='1060.0' cy='150.16706899846463' r='4' fill='#D95F02' />
+  <circle cx='100.0' cy='499.8651537492609' r='4' fill='#1B9E77' />
+<circle cx='164.0' cy='497.7649575995888' r='4' fill='#1B9E77' />
+<circle cx='228.0' cy='490.22807616133855' r='4' fill='#1B9E77' />
+<circle cx='292.0' cy='489.91350222948324' r='4' fill='#1B9E77' />
+<circle cx='356.0' cy='477.6964268223932' r='4' fill='#1B9E77' />
+<circle cx='420.0' cy='460.9887987618012' r='4' fill='#1B9E77' />
+<circle cx='484.0' cy='450.7640324490912' r='4' fill='#1B9E77' />
+<circle cx='548.0' cy='449.7031610491843' r='4' fill='#1B9E77' />
+<circle cx='612.0' cy='447.94837231999' r='4' fill='#1B9E77' />
+<circle cx='676.0' cy='425.12889921623395' r='4' fill='#1B9E77' />
+<circle cx='740.0' cy='412.5409302867651' r='4' fill='#1B9E77' />
+<circle cx='804.0' cy='402.6901939113429' r='4' fill='#1B9E77' />
+<circle cx='868.0' cy='386.1394864579623' r='4' fill='#1B9E77' />
+<circle cx='932.0' cy='369.5689459236169' r='4' fill='#1B9E77' />
+<circle cx='996.0' cy='344.6543683123516' r='4' fill='#1B9E77' />
+<circle cx='1060.0' cy='318.9621312178772' r='4' fill='#1B9E77' />
+
+  <text x='580.0' y='676.0' text-anchor='middle' font-size='14' fill='#333'>Input size (number of UInt32 values)</text>
+  <text transform='translate(24,355.0) rotate(-90)' text-anchor='middle' font-size='14' fill='#333'>Median time (ms, log scale)</text>
+
+  <rect x='114.0' y='104.0' width='285.0' height='86.0' fill='white' stroke='#ddd' />
+  <line x1='130.0' y1='130.0' x2='180.0' y2='130.0' stroke='#D95F02' stroke-width='3' />
+  <text x='190.0' y='134.0' font-size='13' fill='#333'>Swift sorted() (tail slope 1.020)</text>
+  <line x1='130.0' y1='158.0' x2='180.0' y2='158.0' stroke='#1B9E77' stroke-width='3' />
+  <text x='190.0' y='162.0' font-size='13' fill='#333'>Metal radix sort (tail slope 0.492)</text>
+</svg>

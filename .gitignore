@@ -1,2 +1,23 @@
+# Swift Package Manager
 .build/
 .swiftpm/
+.sourcekit-lsp/
+
+# Local Xcode build output (if configured inside repo)
+DerivedData/
+
+# Xcode user-specific data
+**/xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Editors/IDEs
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*~

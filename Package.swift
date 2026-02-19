@@ -17,14 +17,22 @@ let package = Package(
         .target(
             name: "RadixSortMetal",
             path: "RadixSortMetal",
+            exclude: [
+                "RadixSortMetal.metal"
+            ],
             resources: [
-                .process("RadixSortMetal.metal")
+                .process("Kernels")
             ]
         ),
         .testTarget(
             name: "RadixSortMetalTests",
             dependencies: ["RadixSortMetal"],
             path: "RadixSortMetalTests"
+        ),
+        .executableTarget(
+            name: "RadixSortBenchmark",
+            dependencies: ["RadixSortMetal"],
+            path: "Benchmarks/RadixSortBenchmark"
         )
     ]
 )
