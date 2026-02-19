@@ -1,0 +1,173 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B546BE752F47342B002D646E /* RadixSortMetal.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = RadixSortMetal.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B546BE772F47342B002D646E /* RadixSortMetal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RadixSortMetal;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXGroup section */
+		B546BE6E2F47342B002D646E = {
+			isa = PBXGroup;
+			children = (
+				B546BE772F47342B002D646E /* RadixSortMetal */,
+				B546BE762F47342B002D646E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B546BE762F47342B002D646E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B546BE752F47342B002D646E /* RadixSortMetal.metallib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B546BE742F47342B002D646E /* RadixSortMetal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B546BE7C2F47342B002D646E /* Build configuration list for PBXNativeTarget "RadixSortMetal" */;
+			buildPhases = (
+				B546BE732F47342B002D646E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B546BE772F47342B002D646E /* RadixSortMetal */,
+			);
+			name = RadixSortMetal;
+			packageProductDependencies = (
+			);
+			productName = RadixSortMetal;
+			productReference = B546BE752F47342B002D646E /* RadixSortMetal.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B546BE6F2F47342B002D646E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					B546BE742F47342B002D646E = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = B546BE722F47342B002D646E /* Build configuration list for PBXProject "RadixSortMetal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B546BE6E2F47342B002D646E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B546BE762F47342B002D646E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B546BE742F47342B002D646E /* RadixSortMetal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B546BE732F47342B002D646E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B546BE7A2F47342B002D646E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEVELOPMENT_TEAM = DQ798R3W49;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B546BE7B2F47342B002D646E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEVELOPMENT_TEAM = DQ798R3W49;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B546BE7D2F47342B002D646E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ798R3W49;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		B546BE7E2F47342B002D646E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ798R3W49;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B546BE722F47342B002D646E /* Build configuration list for PBXProject "RadixSortMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B546BE7A2F47342B002D646E /* Debug */,
+				B546BE7B2F47342B002D646E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B546BE7C2F47342B002D646E /* Build configuration list for PBXNativeTarget "RadixSortMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B546BE7D2F47342B002D646E /* Debug */,
+				B546BE7E2F47342B002D646E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B546BE6F2F47342B002D646E /* Project object */;
+}
