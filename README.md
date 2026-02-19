@@ -72,7 +72,7 @@ Full per-function API reference (parameters + examples):
 - `reorder(sourceBuffer:destinationBuffer:indexBuffer:...)` is direct gather `source -> destination` (single kernel pass, no copy-back).
 - `temporaryBuffer` must be distinct from `buffer` and large enough for `count * elementStride` bytes.
 
-### 1) Direct Call
+### Direct Call
 
 Use when you want the library to create/commit/wait on the command buffer.
 
@@ -90,7 +90,7 @@ try sorter.reorder(buffer: payloadBuffer,
                    count: count) // internal: payloadBuffer -> payloadScratchBuffer -> payloadBuffer
 ```
 
-### 2) Append to `MTLCommandBuffer`
+### Append to `MTLCommandBuffer`
 
 Use when sorting/reordering should be part of your existing GPU frame step.
 
@@ -113,7 +113,7 @@ try sorter.encodeReorder(buffer: payloadBuffer,
 commandBuffer.commit()
 ```
 
-### 3) Append to `MTLComputeCommandEncoder`
+### Append to `MTLComputeCommandEncoder`
 
 Use when you want encoding inside an already-open compute encoder scope.
 
