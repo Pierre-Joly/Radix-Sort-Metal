@@ -308,6 +308,7 @@ extension MetalRadixSorter {
         }
         let fileManager = FileManager.default
         let searchDirectories = [
+            resourceRoot.appendingPathComponent("Shaders", isDirectory: true),
             resourceRoot.appendingPathComponent("Kernels", isDirectory: true),
             resourceRoot
         ]

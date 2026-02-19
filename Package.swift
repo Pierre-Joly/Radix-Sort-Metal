@@ -21,7 +21,7 @@ let package = Package(
                 "RadixSortMetal.metal"
             ],
             resources: [
-                .process("Kernels")
+                .process("Shaders")
             ]
         ),
         .testTarget(
