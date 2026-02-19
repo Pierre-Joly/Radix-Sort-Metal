@@ -1,0 +1,30 @@
+// swift-tools-version: 6.0
+
+import PackageDescription
+
+let package = Package(
+    name: "RadixSortMetal",
+    platforms: [
+        .macOS(.v13)
+    ],
+    products: [
+        .library(
+            name: "RadixSortMetal",
+            targets: ["RadixSortMetal"]
+        )
+    ],
+    targets: [
+        .target(
+            name: "RadixSortMetal",
+            path: "RadixSortMetal",
+            resources: [
+                .process("RadixSortMetal.metal")
+            ]
+        ),
+        .testTarget(
+            name: "RadixSortMetalTests",
+            dependencies: ["RadixSortMetal"],
+            path: "RadixSortMetalTests"
+        )
+    ]
+)

@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		B512AA1C2F47500000A1B2C3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B512AA1D2F47500000A1B2C3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		B512AA1E2F47500000A1B2C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B546BE752F47342B002D646E /* RadixSortMetal.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = RadixSortMetal.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		B512AA1F2F47500000A1B2C3 /* RadixSortMetalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RadixSortMetalTests;
+			sourceTree = "<group>";
+		};
 		B546BE772F47342B002D646E /* RadixSortMetal */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RadixSortMetal;
@@ -22,7 +30,11 @@
 		B546BE6E2F47342B002D646E = {
 			isa = PBXGroup;
 			children = (
+				B512AA1D2F47500000A1B2C3 /* Package.swift */,
+				B512AA1E2F47500000A1B2C3 /* README.md */,
+				B512AA1C2F47500000A1B2C3 /* .gitignore */,
 				B546BE772F47342B002D646E /* RadixSortMetal */,
+				B512AA1F2F47500000A1B2C3 /* RadixSortMetalTests */,
 				B546BE762F47342B002D646E /* Products */,
 			);
 			sourceTree = "<group>";
